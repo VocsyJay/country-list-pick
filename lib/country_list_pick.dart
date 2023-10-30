@@ -5,8 +5,6 @@ import 'package:country_list_pick/support/code_country.dart';
 import 'package:country_list_pick/support/code_countrys.dart';
 import 'package:flutter/material.dart';
 
-import 'support/code_country.dart';
-
 export 'support/code_country.dart';
 
 export 'country_selection_theme.dart';
@@ -82,7 +80,7 @@ class _CountryListPickState extends State<CountryListPick> {
             selectedItem,
             appBar: widget.appBar ??
                 AppBar(
-                  backgroundColor: Theme.of(context).appBarTheme.color,
+                  backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
                   title: Text("Select Country"),
                 ),
             theme: theme,
